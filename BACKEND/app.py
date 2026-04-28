@@ -2,11 +2,11 @@ import os
 import json
 import uuid
 from datetime import datetime, timezone, timedelta
-import requests
-from flask import Flask, request, jsonify
-from dotenv import load_dotenv
-from werkzeug.utils import secure_filename
-from flask_cors import CORS
+import requests # type: ignore
+from flask import Flask, request, jsonify # type: ignore
+from dotenv import load_dotenv # type: ignore
+from werkzeug.utils import secure_filename # type: ignore
+from flask_cors import CORS # type: ignore
 
 load_dotenv()
 
