@@ -75,18 +75,6 @@ body {
     top: -2px;
 }
 
-.option-btn{
-    display: block;
-    width: 100%;
-    padding: 8px;
-    font-size: 1.1rem;
-    border-radius: 12px;
-    cursor: pointer;
-    font-weight: 600;
-    letter-spacing: 1px;
-    color: rgb(0, 0, 0);
-}
-
 .option-group {
     padding: 0px 0px 0px 0px;
 }
