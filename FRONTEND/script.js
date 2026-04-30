@@ -1518,6 +1518,8 @@ function juanmode() {
     buttons.forEach(btnData => {
         const btn = document.createElement("button");
         btn.className = "option-btn";
+        btn.style.setProperty("--fade", "0%");
+        btn.style.setProperty("--hue-offset", "0");
         btn.textContent = btnData.text;
         btn.onclick = btnData.action;
 
